@@ -1,6 +1,6 @@
-update=27.03.2018 01:07:47
+update=10.04.2018 00:04:51
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -63,4 +63,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=Arduino
+LibName33=ac-dc
+LibName34=Arduino
+LibName35=dc-dc
+LibName36=DC-DC-Modules

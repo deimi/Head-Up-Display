@@ -1,0 +1,41 @@
+D0/RXI	->	
+D1/TXO	->	
+D2		->	
+D3		->	
+D4		->	
+D5		->	
+D6		->	
+D7		->	
+D8		->	
+D9		->	
+D10		->	
+D11		->	
+D12		->	
+D13		->	
+D14/A0	->	
+D15/A1	->
+D16/A2	->
+D17/A3	->
+D18/A4	->
+D19/A5	->
+A6		->	
+A7		->	
+
+
+Red Led
+Yellow1
+Yellow2
+Yellow3
+Dip1
+Dip2
+Dip3
+Dip4
+Dip5
+Dip6
+Dip7
+Dip8
+GPS_Tx
+GPS_Rx
+GPS_En
+GPS_PPS
+Temp

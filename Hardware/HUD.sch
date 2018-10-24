@@ -53,12 +53,12 @@ $EndDescr
 $Comp
 L Arduino_Pro_Mini_Board U1
 U 1 1 5AB97D54
-P 8650 5400
-F 0 "U1" H 8650 4800 60  0000 C CNN
-F 1 "Arduino_Pro_Mini_Board" H 8700 6100 60  0000 C CNN
-F 2 "" H 8650 4800 60  0001 C CNN
-F 3 "" H 8650 4800 60  0001 C CNN
-	1    8650 5400
+P 9650 1500
+F 0 "U1" H 9650 900 60  0000 C CNN
+F 1 "Arduino_Pro_Mini_Board" H 9700 2200 60  0000 C CNN
+F 2 "" H 9650 900 60  0001 C CNN
+F 3 "" H 9650 900 60  0001 C CNN
+	1    9650 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -290,4 +290,78 @@ Wire Wire Line
 Wire Wire Line
 	2550 2350 2550 1100
 Connection ~ 2550 1100
+Wire Notes Line
+	5050 1650 6300 1650
+Wire Notes Line
+	6300 1650 6300 450 
+Text Notes 5300 650  0    60   ~ 0
+uController Reset
+Text GLabel 10650 900  2    60   Input ~ 0
+Reset
+Text GLabel 5950 900  2    60   Output ~ 0
+Reset
+$Comp
+L +5V #PWR?
+U 1 1 5BD0F6E7
+P 5200 900
+F 0 "#PWR?" H 5200 750 50  0001 C CNN
+F 1 "+5V" H 5200 1040 50  0000 C CNN
+F 2 "" H 5200 900 50  0001 C CNN
+F 3 "" H 5200 900 50  0001 C CNN
+	1    5200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BD0F711
+P 5650 1400
+F 0 "#PWR?" H 5650 1150 50  0001 C CNN
+F 1 "GND" H 5650 1250 50  0000 C CNN
+F 2 "" H 5650 1400 50  0001 C CNN
+F 3 "" H 5650 1400 50  0001 C CNN
+	1    5650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 900  10650 900 
+Wire Notes Line
+	8250 450  8250 2250
+Wire Notes Line
+	8250 2250 11250 2250
+Text Notes 9150 600  0    60   ~ 0
+Arduino Mini uController
+$Comp
+L +5V #PWR?
+U 1 1 5BD10950
+P 8450 850
+F 0 "#PWR?" H 8450 700 50  0001 C CNN
+F 1 "+5V" H 8450 990 50  0000 C CNN
+F 2 "" H 8450 850 50  0001 C CNN
+F 3 "" H 8450 850 50  0001 C CNN
+	1    8450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BD1097A
+P 8750 900
+F 0 "#PWR?" H 8750 650 50  0001 C CNN
+F 1 "GND" H 8750 750 50  0000 C CNN
+F 2 "" H 8750 900 50  0001 C CNN
+F 3 "" H 8750 900 50  0001 C CNN
+	1    8750 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 850  8450 1100
+Wire Wire Line
+	8450 1100 9050 1100
+Wire Wire Line
+	9050 1000 8900 1000
+Wire Wire Line
+	8900 1000 8900 800 
+Wire Wire Line
+	8900 800  8750 800 
+Wire Wire Line
+	8750 800  8750 900 
 $EndSCHEMATC

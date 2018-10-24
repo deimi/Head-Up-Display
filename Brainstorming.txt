@@ -1,0 +1,21 @@
+- Displayhelligkeit automatisch anpassen an Licht
+- Grundhelligkeit manuell jederzeit verstellbar über Poti
+- Dip schalter für eventuelle Konfiguration im Feld zum Testen von Algorithmen
+- Display 0-199Kmh
+- UV Schutzlack für Gehäuse
+- Rote Led bei zu hoher Betriebstemperatur
+- Polyfuse bei Spannungseingang zum Schutz des PKW Netzes
+- Schnelle GPS Verbindung
+- Kein Blenden durch helles Gehäuse
+- Anzeigen von Warnungen der Geschwindigkeitsbeschränkung mit 3 Leds
+	1 Led = über Innerortsbeschränkung
+	2 Led = über Außerortsbeschränkung
+	3 Led = über Autobahnbeschränkung
+	
+	
+	
+Umsetzung
+- GPS Pins wirklich 5V tolerant? https://github.com/SlashDevin/NeoGPS/blob/master/extras/doc/Installing.md#3-connect-the-gps-device
+	GN-801 im Datenblatt als TTL angegeben
+
+- Wie gleichzeitig Debuggen über TX/RX und GPS an Tx/Rx????
